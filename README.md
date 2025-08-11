@@ -47,7 +47,7 @@ Here’s what’s inside:
 
 ## 📸 Screenshot
 
-![Crypto Chart UI](public/screenshot.png)
+![Crypto Chart UI](public/Screenshot.png)
 
 ---
 
