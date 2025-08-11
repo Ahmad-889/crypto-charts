@@ -1,59 +1,95 @@
-# CryptoCharts
+# 📊 Angular Crypto Price Chart App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+A clean, modern, and responsive cryptocurrency price chart application built using **Angular 19**, **SCSS**, and a **service-driven architecture**.  
+Includes real-time chart updates, coin & currency selection, and adjustable time ranges — all wrapped in a **beautiful, consistent UI**.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🌐 Live Demo
+
+👉 [Click here to try the app](https://ahmad-889.github.io/crypto-charts/)
+
+---
+
+## 🎯 What I Built
+
+This application is designed with **standalone components** for scalability and maintainability.  
+Here’s what’s inside:
+
+* ✅ `CryptoOptionsComponent`: A modern, consistent form for selecting coin, currency, and time range  
+* ✅ `CryptoChartComponent`: Displays interactive charts with updated data  
+* ✅ `CryptoService`: Fetches price history and current data from a public API  
+* ✅ Responsive, dark-themed UI with polished SCSS styling
+
+---
+
+## 💡 Key Features
+
+* 💹 **Select any cryptocurrency** and display its historical prices  
+* 💱 **Choose currency** for price conversion (USD, EUR, etc.)  
+* ⏳ **Adjust time range** for the chart (e.g., last 7, 30, 90 days)  
+* 🎨 **Modern, consistent form design** with focus and hover effects  
+* 📱 Fully responsive layout for desktop and mobile  
+* ⚡ Fast data loading with caching where possible
+
+---
+
+## 🧱 Technologies Used
+
+* Angular 19 (Standalone Components)
+* TypeScript
+* SCSS (Custom, consistent styling + Responsive Design)
+* RxJS + Angular HTTPClient
+* Chart.js (or similar) for chart rendering
+* Public Cryptocurrency API (e.g., CoinGecko API)
+
+---
+
+## 📸 Screenshot
+
+![Crypto Chart UI](public/screenshot.png)
+
+---
+
+## 📁 Project Structure
+
+
+
+```
+src/
+└── app/
+├── components/
+│ ├── emoji-search/
+│ │ ├── emoji-search.component.ts   # Component logic
+│ │ ├── emoji-search.component.html # UI template
+│ │ └── emoji-search.component.scss # Styling
+│ └── theme-picker/
+│ ├── theme-picker.component.ts     # Theme toggle logic
+│ ├── theme-picker.component.html   # Theme toggle UI
+│ └── theme-picker.component.scss   # Theme styling
+├── services/
+  └── emoji.service.ts              # Emoji data service
+```
+
+## 🚀 Running the Project
+
+Install Angular CLI if you haven't:
 
 ```bash
+npm install -g @angular/cli
+```
+
+Install dependencies and serve:
+
+```bash
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Visit `http://localhost:4200` to see the custom directives in action.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🔗 Author
+Made with ❤️ by
+Muhammad Ahmad

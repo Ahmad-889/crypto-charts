@@ -1,0 +1,76 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.crypto-options {
+  background-color: #1e1e2f;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 420px;
+  color: #f1f1f1;
+ box-shadow: 0 4px 20px rgba(0, 255, 229, 0.2);
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    label {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #b0b0c3;
+    }
+
+    select {
+      padding: 0.75rem 1rem;
+      border: 1px solid #2a2a3d;
+      border-radius: 8px;
+      background-color: #26263b;
+      color: #f1f1f1;
+      font-size: 0.95rem;
+      transition: border-color 0.3s, box-shadow 0.3s;
+
+      &:hover {
+        border-color: #00ffe5;
+      }
+
+      &:focus {
+        outline: none;
+        border-color: #00ffe5;
+        box-shadow: 0 0 0 3px rgba(78, 158, 255, 0.3);
+      }
+    }
+  }
+
+  .btn-primary {
+    padding: 0.9rem;
+     background: linear-gradient(90deg, #00ffe5, #0077ff);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+
+    &:hover {
+      background: linear-gradient(90deg, #1e90ff, #4e9eff);
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+}
+
