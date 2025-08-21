@@ -42,8 +42,9 @@ Here’s what’s inside:
 * RxJS + Angular HTTPClient
 * Chart.js (or similar) for chart rendering
 * Public Cryptocurrency API (e.g., CoinGecko API)
-
 ---
+
+
 
 ## 📸 Screenshot
 
@@ -52,8 +53,6 @@ Here’s what’s inside:
 ---
 
 ## 📁 Project Structure
-
-
 
 ```
 src/
@@ -70,6 +69,7 @@ src/
 ├── services/
   └── emoji.service.ts              # Emoji data service
 ```
+
 
 ## 🚀 Running the Project
 
@@ -90,6 +90,10 @@ Visit `http://localhost:4200` to see the custom directives in action.
 
 ---
 
+
 ## 🔗 Author
 Made with ❤️ by
 Muhammad Ahmad
+
+
+
