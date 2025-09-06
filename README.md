@@ -9,6 +9,7 @@ Includes real-time chart updates, coin & currency selection, and adjustable time
 
 👉 [Click here to try the app](https://ahmad-889.github.io/crypto-charts/)
 
+
 ---
 
 ## 🎯 What I Built
@@ -22,6 +23,7 @@ Here’s what’s inside:
 * ✅ Responsive, dark-themed UI with polished SCSS styling
 
 ---
+
 
 ## 💡 Key Features
 
@@ -43,8 +45,6 @@ Here’s what’s inside:
 * Chart.js (or similar) for chart rendering
 * Public Cryptocurrency API (e.g., CoinGecko API)
 ---
-
-
 
 ## 📸 Screenshot
 
@@ -68,8 +68,9 @@ src/
 │ └── theme-picker.component.scss   # Theme styling
 ├── services/
   └── emoji.service.ts              # Emoji data service
-```
 
+
+```
 
 ## 🚀 Running the Project
 
@@ -94,6 +95,3 @@ Visit `http://localhost:4200` to see the custom directives in action.
 ## 🔗 Author
 Made with ❤️ by
 Muhammad Ahmad
-
-
-
